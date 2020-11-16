@@ -6,8 +6,8 @@ const {auth} =require('./../authMiddleware/auth');
 const productqueries = require('../dbquerrry/productdbquery');
 const cartqueries = require('./../dbquerrry/cartdbquery');
 
-const apiKey = '6430e438c6e5891b0cc2292f25cbfcd4-ba042922-8f4d96c3';
-const domain = 'sandbox4b4196e7ab374fafa679f77b9a57f90e.mailgun.org';
+const apiKey = 'API-key used';
+const domain = 'sandbox@domain.org';
 
 const mailgun = require('mailgun-js')({ domain, apiKey });
 
